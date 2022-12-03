@@ -1,1 +1,127 @@
-<mxfile host="app.diagrams.net" modified="2022-12-03T09:23:11.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" version="20.6.0" etag="_OdIuxfRNhFogoEYysYT" type="github"><diagram id="wTyTYjDGll_070yj_GSY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-03T10:02:55.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" version="20.6.0" etag="MD6du0T8PgPDAhgc3G3b" type="github">
+  <diagram id="xvtW_vG7kbTfIYRmdyit" name="Proxy">
+    <mxGraphModel dx="700" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-1" value="上班的小王" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="66" y="421" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="5Xe7zZizd_pdAm5dbhPP-1" target="5Xe7zZizd_pdAm5dbhPP-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="246" y="411" as="sourcePoint" />
+            <mxPoint x="296" y="361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-8" value="点餐" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Xe7zZizd_pdAm5dbhPP-2">
+          <mxGeometry x="0.2541" relative="1" as="geometry">
+            <mxPoint x="-20" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-3" value="肯德基" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="321" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-4" value="麦当劳" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="421" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-5" value="老娘舅" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="521" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="5Xe7zZizd_pdAm5dbhPP-1" target="5Xe7zZizd_pdAm5dbhPP-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="186.55132892577285" y="449.4535319332772" as="sourcePoint" />
+            <mxPoint x="319.4872516621681" y="392.58664458881697" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-9" value="点餐" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Xe7zZizd_pdAm5dbhPP-6">
+          <mxGeometry x="0.2456" relative="1" as="geometry">
+            <mxPoint x="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="5Xe7zZizd_pdAm5dbhPP-1" target="5Xe7zZizd_pdAm5dbhPP-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="196.55132892577285" y="459.4535319332772" as="sourcePoint" />
+            <mxPoint x="329.4872516621681" y="402.58664458881697" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-10" value="点餐" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Xe7zZizd_pdAm5dbhPP-7">
+          <mxGeometry x="0.1978" relative="1" as="geometry">
+            <mxPoint x="-16" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-11" value="原来：小王只在肯德基APP里点餐，点餐操作有变化，他也能接受，因为他只吃肯德基" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-12" value="上班的小王" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="171" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="5Xe7zZizd_pdAm5dbhPP-12" target="5Xe7zZizd_pdAm5dbhPP-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="246" y="261" as="sourcePoint" />
+            <mxPoint x="296" y="211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-14" value="点餐" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="5Xe7zZizd_pdAm5dbhPP-13">
+          <mxGeometry x="0.2541" relative="1" as="geometry">
+            <mxPoint x="-20" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-26" value="浏览、下单、支付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Xe7zZizd_pdAm5dbhPP-13">
+          <mxGeometry x="-0.6123" y="-1" relative="1" as="geometry">
+            <mxPoint x="31" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-15" value="肯德基" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="293.5" y="171" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-16" value="现在：小王通过外卖APP点餐肯德基，任何餐馆的操作有变化，他都不用关心，对他来说操作不变" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="635" width="553" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-19" value="点餐用户" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="677" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="5Xe7zZizd_pdAm5dbhPP-19" target="5Xe7zZizd_pdAm5dbhPP-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="246" y="767" as="sourcePoint" />
+            <mxPoint x="296" y="717" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-21" value="点餐" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="5Xe7zZizd_pdAm5dbhPP-20">
+          <mxGeometry x="0.2541" relative="1" as="geometry">
+            <mxPoint x="-20" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-27" value="浏览、下单、支付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Xe7zZizd_pdAm5dbhPP-20">
+          <mxGeometry x="-0.5066" relative="1" as="geometry">
+            <mxPoint x="24" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-22" value="外卖平台" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="293.5" y="677" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-23" value="餐馆" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="677" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="5Xe7zZizd_pdAm5dbhPP-22" target="5Xe7zZizd_pdAm5dbhPP-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="727" as="sourcePoint" />
+            <mxPoint x="310" y="727" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-25" value="点餐" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="5Xe7zZizd_pdAm5dbhPP-24">
+          <mxGeometry x="0.2541" relative="1" as="geometry">
+            <mxPoint x="-20" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-28" value="浏览、下单、支付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Xe7zZizd_pdAm5dbhPP-24">
+          <mxGeometry x="-0.6682" y="-2" relative="1" as="geometry">
+            <mxPoint x="34" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Xe7zZizd_pdAm5dbhPP-29" value="后来：小王也开始用麦当劳APP、老娘舅APP点餐，任一一家餐馆点餐操作有变化，他都觉得很头疼" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="285" width="558" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
